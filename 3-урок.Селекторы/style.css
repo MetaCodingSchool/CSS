@@ -1,0 +1,23 @@
+#second{
+    color:blue;
+}
+.color-red{
+    /* color: red; */
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
+
+p,div{
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+}
+
+a:hover{
+    color: black;
+}
+a:active{
+    color: green;
+}

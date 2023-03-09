@@ -1,0 +1,21 @@
+p{
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    color: darkorange;
+
+    text-align: center;
+
+    line-height: 1.2;
+
+    font-family: 'Arial', sans-serif, 'Times New Roman';
+}
+span{
+    background-color: red;
+}
+/* .container{
+    font-size:24px;
+}
+html{
+    font-size:48px;
+} */

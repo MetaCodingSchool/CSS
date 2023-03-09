@@ -1,0 +1,9 @@
+p{
+    color: blue; 
+    margin: 20px; 
+    border: 1px solid blue;
+}
+button{
+    background: blue;
+    color: white;
+}

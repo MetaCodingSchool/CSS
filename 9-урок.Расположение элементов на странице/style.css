@@ -1,0 +1,91 @@
+.spongebob{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://image.winudf.com/v2/image/c3BvbmdlYm9iLndhbGxwYXBlci5oZF9zY3JlZW5fMl8xNTMxNjQ1MzYxXzA0MQ/screen-2.jpg?fakeurl=1&type=.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px dashed blueviolet;
+    border-radius: 50%;
+
+    float: left;
+}
+
+/* Пример2 */
+.card{
+    width: 400px;
+    height: 300px;
+    border: 1px solid brown;
+}
+
+.card-info{
+    float: right;
+}
+
+
+/* Пример3 */
+
+.square{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+}
+#red{
+    background: red;
+    position: static;
+}
+#green{
+    background: green;
+    position: relative;
+    /* left:20px;
+    top:100px; */
+    right: -50%;
+    bottom: 300px;
+}
+#blue{
+    background: blue;
+    position: absolute;
+    right: 0;
+    top:50%;
+}
+
+#orange{
+    background: orange;
+    position: fixed;
+    right: 0;
+    top:50%;
+}
+
+#pink{
+    background: pink;
+}
+
+/* Пример4 */
+
+.square1{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#red1{
+    background: red;
+}
+#green1{
+    background: green;
+}
+#blue1{
+    background: blue;
+}
+
+#orange1{
+    background: orange;
+}
+
+#pink1{
+    background: pink;
+}
+
+.squares{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
